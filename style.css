@@ -1,4 +1,73 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    /* Added gap property for spacing between links */
+    gap: 10px;
+  }
+
+  .navbar a {
+    text-decoration: none;
+  }
+
+  .navbar i {
+    padding: 5px;
+  }
+  
+  nav {
+    display: flex;
+    /* justify-content: center;  --> Removed for logo positioning */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .hero {
+    width: 150vh;
+    height: auto;
+    background-image: url(ujamaa-bg.jpeg);
+    background-size: cover;
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+    /* Removed margin-right for logo positioning */
+  }
+  
+  /* Added new rule for navbar positioning  */
+  .navbar {
+    flex: 1;  /* This expands the navbar to fill remaining space */;
+    align-items: baseline;
+    justify-content: baseline
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .intro {
+    padding: 20px;
+  }
+  
+  .contactForm {
+    padding: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ccc;
+  }
+  
