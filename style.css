@@ -271,15 +271,7 @@ body {
    justify-content: center !important;
    text-align: center;
    width: 100%;
- }
- 
- header::before {
-   background-color: var(--eerie-black);
-   content: "";
-   height: 100%;
-   opacity: .5;
-   position: absolute;
-   width: 100%;
+   background-image: url(bg3.jpeg);
  }
  
  header>* {
@@ -303,6 +295,10 @@ body {
  #welfare li {
    font-weight: normal;
    margin-left: 1.25em;
+ }
+
+ #welfare ol {
+   list-style: none;
  }
  
  #welfare ::marker, #welfare li::first-line {
