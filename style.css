@@ -7,16 +7,6 @@
    scroll-behavior: smooth;
  }
  
- ::-moz-selection {
-   background: #b3d4fc;
-   text-shadow: none;
- }
- 
- ::selection {
-   background: #b3d4fc;
-   text-shadow: none;
- }
- 
  hr {
    display: block;
    height: 1px;
@@ -24,10 +14,6 @@
    border-top: 1px solid currentColor;
    margin: 1em 0;
    padding: 0;
- }
- 
- canvas, iframe, img, svg, video {
-   vertical-align: middle;
  }
  
 body {
@@ -95,71 +81,6 @@ body {
  a {
    color: var(--french-blue);
    font-weight: normal;
- }
- 
- a[href*="Discord"] {
-   color: #5865F2;
- }
- 
- a[href*="Twitter"] {
-   color: #1d9bf0;
- }
- 
- a[href*="Instagram"] {
-   color: #FF0169;
- }
- 
- a[href*="Twitch"] {
-   color: #9146FF;
- }
- 
- a[href*="YouTube"] {
-   color: #FF0000;
- }
- 
- button, a.button {
-   background-color: var(--french-blue);
-   border-radius: .5rem;
-   color: var(--seasalt-white);
- }
- 
- button {
-   border: none;
-   font: inherit;
-   font-weight: normal;
-   height: 2.5rem;
-   width: 2.5rem;
- }
- 
- a.button {
-   padding: .5rem .75rem;
-   text-decoration: none;
- }
- 
- a:hover {
-   text-decoration: none;
- }
- 
- button:hover {
-   border: 2.5px solid currentColor;
-   cursor: pointer;
- }
- 
- a.button:hover {
-   border: 2.5px solid var(--seasalt-white);
- }
- 
- a:active {
-   color: var(--celestial-blue);
- }
- 
- a.button:active {
-   color: var(--seasalt-white);
- }
- 
- button:active, a.button:active {
-   background-color: var(--celestial-blue);
-   border-radius: .75rem;
  }
  
  /* Layouts */
@@ -255,18 +176,13 @@ body {
  nav.bar li:not(.logo)>a:hover {
    text-decoration: underline;
  }
- 
- nav.bar>button {
-   display: none;
- }
- 
+  
  nav.bar.scrolled>button:hover {
    border-color: var(--eerie-black);
  }
  
- /* Header */
  header {
-   background: center / cover no-repeat url("../assets/img/Banner\ \(No\ text\).png");
+   background: center / cover no-repeat;
    height: 100vh;
    justify-content: center !important;
    text-align: center;
@@ -288,10 +204,6 @@ body {
    color: var(--eerie-black);
  }
  
- #welfare ::marker {
-   color: var(--honolulu-blue);
- }
- 
  #welfare li {
    font-weight: normal;
    margin-left: 1.25em;
@@ -300,24 +212,9 @@ body {
  #welfare ol {
    list-style: none;
  }
- 
- #welfare ::marker, #welfare li::first-line {
-   font-weight: bold;
- }
- 
- #welfare li::first-line {
-   text-decoration: underline;
- }
- 
- #join iframe {
-   border: none;
-   height: 500px;
-   width: 100%;
- }
- 
- footer.flex{
-   background-color: var(--night-black);
-   flex-wrap: wrap;
-   justify-content: space-evenly;
-   padding: 1.25rem;
+
+ footer {
+  justify-content: center !important;
+  text-align: center;
+  width: 100%;
  }
