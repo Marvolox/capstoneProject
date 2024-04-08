@@ -1,58 +1,329 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ujamaa Community Portal</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <img src="ujamaa-logo.jpeg" alt="ujamaa-logo" class="logo">
-            <div class="navbar">
-                <ul>
-                    <li><a href=""><i class="fa-solid fa-book-open"></i>About us</a></li>
-                    <li><a href=""><i class="fa-solid fa-newspaper"></i>News</a></li>
-                    <li><a href=""><i class="fa-solid fa-phone"></i>Contact us</a></li>
-                    <li><a href=""><i class="fa-solid fa-circle-dollar-to-slot"></i>Donate to us</a></li>
-                    <li><a href=""><i class="fa-solid fa-hand-holding-heart"></i>Welfare</a></li>
-                    <li><a href=""><i class="fa-solid fa-question"></i>FAQ</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <hr>
-    <div class="hero">
-    <div class="coverImage">
-        <img src="white.jpeg" alt="ujamaa-image" class="hero-image">
-    </div>
-        <div class="intro">
-            <h3><strong>ABOUT UJAMAA COMMUNITY</strong></h3>
-            <p>
-                Ujamaa Community is a platform dedicated to unity and empowerment. Our mission is to support and uplift our members through welfare activities and community engagement. Join us in creating positive change and building a stronger, more connected community. Welcome to Ujamaa, where together, we thrive.
-            </p>
-        </div>
-    </div>
-    <footer>
-        <div class="contactForm">
-            <form action="" id="contactForm">
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" required><br>
-    
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required><br>
-    
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="4" required></textarea><br>
-    
-                <input type="submit" value="Submit" class="btn">
-            </form>
-        </div>
-        <br>
-        &copy;Ujamaa Community 2024
-    </footer>
-    <script src="script.js"></script>    
-</body>
+<html lang="en-GB">
+	<head>
+		<meta charset="UTF-8" />
+
+		<!-- Page metadata -->
+        <title>Ujamaa Community Portal</title>
+        <meta name="description" content="Ujamaa Community Portal" />
+        <meta name="author" content="Dalmas Otieno" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<!-- Page title -->
+		<title>Official site | Ujamaa Community Portal</title>
+		
+		<!-- Resource links -->
+		<link href="./favicon.ico" rel="icon" sizes="any" />
+		<link href="./favicon.ico" rel="shortcut icon" sizes="any" />
+		<link href="style.css" rel="stylesheet" />
+
+		<!-- Font Awesome scripts -->
+		<script src="./res/js/fontawesome/fontawesome.min.js" defer></script>
+		<script src="./res/js/fontawesome/brands.min.js" defer></script>
+		<script src="./res/js/fontawesome/solid.min.js" defer></script>
+	</head>
+	<body>
+		<!-- Navigation bar -->
+		<nav class="flex bar" aria-label="Page menu">
+			<ul>
+				<li class="logo">
+					<a href="#">
+						<h1>UJAMAA</h1>
+					</a>
+				</li>
+				<li>
+					<a href="#about">About</a>
+				</li>
+				<li>
+					<a href="#welfare">Welfare</a>
+				</li>
+				<li>
+					<a href="#join">Join</a>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- Header -->
+		<header class="flex">
+			<h1>Ujamaa Community: Where Unity Empowers All.</h1>
+		</header>
+
+		<!-- Main content -->
+		<main>
+			<section id="about">
+				<div class="container">
+					<h2>About us</h2>
+					<p>
+                        Welcome to Ujamaa, a vibrant online community dedicated to fostering unity, empowerment, and collaboration among individuals and groups.
+						<br />
+                        At Ujamaa, we believe in the strength of community and the power of coming together to support one another. Our platform serves as a hub for connecting people from diverse backgrounds, cultures, and experiences, all sharing a common goal: to uplift and empower each other
+					</p>
+					<p>Founded on the principles of cooperative economics and collective responsibility, Ujamaa is more than just a website – it's a movement. Whether you're seeking resources, connections, or inspiration, you'll find a welcoming space here. From sharing stories of success to offering tools for personal and community growth, we strive to be a catalyst for positive change.</p>
+					<p>Join us in building a stronger, more connected community. Together, we can achieve great things. Welcome to Ujamaa.</p>
+					<h3>Leaders</h3>
+					<div class="grid">
+						<article class="card">
+							<h4 class="title">Mark Mutinda</h4>
+							<p>Mutii!sh</p>
+							<p class="role">Team Leader</p>
+							<nav aria-label="Card menu">
+								<ul>
+									<li>
+										<a href=#   title="Visit Mutinda's website!">
+											<i class="fa-solid fa-globe"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" title="Send Mutinda an E-Mail!">
+											<i class="fa-solid fa-at"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#"  title="Follow Mutinda on Twitter!">
+											<i class="fa-brands fa-twitter"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" target="_blank"  title="Follow Mutinda on Instagram!">
+											<i class="fa-brands fa-instagram"></i>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</article>
+						<article class="card">
+							<h4 class="title">Chief Lermi</h4>
+							<p>Matthews Miller</p>
+							<p class="role">Welfare Manager</p>
+							<nav aria-label="Card menu">
+								<ul>
+									<li>
+										<a href="#"  title="Visit Lermi's website!">
+											<i class="fa-solid fa-globe"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" title="Send Lermi an E-Mail!">
+											<i class="fa-solid fa-at"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#"  title="Follow Lermi on Twitter!">
+											<i class="fa-brands fa-twitter"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#"  title="Follow Lermi on Instagram!">
+											<i class="fa-brands fa-instagram"></i>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</article>
+						<article class="card">
+							<h4 class="title">Yobra</h4>
+							<p>Brian Ng'ang'a</p>
+							<p class="role">Head of Community Engagement</p>
+							<nav aria-label="Card menu">
+								<ul>
+									<li>
+										<a href="#" title="Send Yobra an E-Mail!">
+											<i class="fa-solid fa-at"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#"  title="Follow Yobra on Twitter!">
+											<i class="fa-brands fa-twitter"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#"  title="Follow Yobra on Instagram!">
+											<i class="fa-brands fa-instagram"></i>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</article>
+						<article class="card">
+							<h4 class="title">Oloo</h4>
+							<p>Godwins Oloo</p>
+							<p class="role">Organising secretary</p>
+							<nav aria-label="Card menu">
+								<ul>
+									<li>
+										<a href="#" title="Send Oloo an E-Mail!">
+											<i class="fa-solid fa-at"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" title="Follow Oloo on Twitter!">
+											<i class="fa-brands fa-twitter"></i>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</article>
+					</div>
+					<hr />
+					<h3>Some of Our Members</h3>
+					<div class="grid">
+						<article class="card">
+							<h4 class="title">Ir4bi</h4>
+							<p>Oneal Irabi</p>
+							<p class="role">Member</p>
+							<nav aria-label="Card menu">
+								<ul>
+									<li>
+										<a href="#"  title="Follow Ir4bi on Twitch!">
+											<i class="fa-brands fa-twitch"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#"  title="Follow Ir4bi on YouTube!">
+											<i class="fa-brands fa-youtube"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#"  title="Follow Ir4bi on Twitter!"><i class="fa-brands fa-twitter"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" title="Follow Ir4bi on Instagram!">
+											<i class="fa-brands fa-instagram"></i>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</article>
+						<article class="card">
+							<h4 class="title">Mkulima</h4>
+							<p>Austin Sikala</p>
+							<p class="role">Member</p>
+							<nav aria-label="Card menu">
+								<ul>
+									<li>
+										<a href="#"  title="Follow Mkulima on Twitch!">
+											<i class="fa-brands fa-twitch"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#"  title="Follow Mkulima on Twitter!"><i class="fa-brands fa-twitter"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#"  title="Follow Mkulima on Instagram!">
+											<i class="fa-brands fa-instagram"></i>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</article>
+						<article class="card">
+							<h4 class="title">Zero</h4>
+							<p>Mark Hacho</p>
+							<p class="role">Member</p>
+							<nav aria-label="Card menu">
+								<ul>
+									<li>
+										<a href="#"  title="Follow Zero on Twitch!">
+											<i class="fa-brands fa-twitch"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#"  title="Follow Zero on YouTube!">
+											<i class="fa-brands fa-youtube"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" title="Follow Zero on Twitter!"><i class="fa-brands fa-twitter"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#"  title="Follow Zero on Instagram!">
+											<i class="fa-brands fa-instagram"></i>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</article>
+						<article class="card">
+							<h4 class="title">Velma</h4>
+							<p>Martha Kabbis</p>
+							<p class="role">Member</p>
+							<nav aria-label="Card menu">
+								<ul>
+									<li>
+										<a href="#"  title="Follow Velma on Twitter!"><i class="fa-brands fa-twitter"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#"  title="Follow Velma on Instagram!">
+											<i class="fa-brands fa-instagram"></i>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section id="welfare">
+				<div class="container">
+					<h2>Welfare page</h2>
+					<ol>
+						<li>
+                            <h3>Financial Assistance Programs:</h3><br>
+
+                            <strong>Description:</strong> Learn about various financial assistance programs available to support individuals and families in our community. These programs aim to provide relief during times of financial hardship, offering assistance with essentials such as rent, utilities, and other basic needs. <br>
+                            <strong>Resource Links:</strong> <a href="https://civskenya.org/">Local Government Assistance Programs</a>, <a href="https://www2.fundsforngos.org/tag/funding-opportunities-and-resources-in-kenya/">Non-Profit Grant Opportunities</a>, <a href="https://www.emergencymedicinekenya.org/emergency-chronic-critical-illness-fund/">Emergency Funds</a>
+						</li>
+						<li>
+                            <h3>Food Assistance:</h3><br>
+
+                            <strong>Description:</strong> Access to nutritious food is essential for a healthy community. Explore the local food assistance options available, including food banks, community kitchens, and meal programs. No one should go hungry, and these resources are here to help. <br>
+                            <strong>Resource Links:</strong> <a href="https://kenya.foodbank.co/">Local Food Banks</a>, <a href="https://unfccc.int/climate-action/momentum-for-change/activity-database/the-community-cooker">Community Kitchen Schedules</a>, <a href="https://food4education.org/">Meal Program Locations</a>
+						</li>
+						<li>
+                            <h3>Housing Support:</h3><br>
+
+                            <strong>Description:</strong> Stable housing is a cornerstone of well-being. Discover resources for affordable housing, rental assistance programs, and emergency shelters for those facing homelessness. Everyone deserves a safe place to call home. <br>
+                            <strong>Resource Links:</strong> <a href="https://www.bomayangu.go.ke/">Affordable Housing Listings</a>, <a href="https://www.nhckenya.go.ke/">Rental Assistance Programs</a>, <a href="https://kenya.graceslist.org/directory/categories/homeless-shelters">Emergency Shelter Contacts</a>
+						</li>
+						<li>
+                            <h3>Healthcare Services:</h3><br>
+
+                            <strong>Description:</strong> Good health is invaluable. Find information on local clinics, hospitals, and health centers where you can receive medical care, regardless of your insurance status. Learn about health insurance options and programs for low-income individuals. <br>
+                            <strong>Resource Links:</strong> <a href="https://www.kenyapharmtech.com/government-hospitals-nairobi/">Local Health Clinics</a>, <a href="https://www.nhif.or.ke/">Health Insurance Marketplace</a>, <a href="http://guidelines.health.go.ke:8000/media/Kenya_Universal_Health_Coverage_Policy_2020__2030.pdf">Low-Income Health Programs</a>
+						</li>
+						<li>
+                            <h3>Mental Health Resources:</h3><br>
+
+                            <strong>Description:</strong> Mental health is as important as physical health. Discover resources for counseling services, hotlines for support, and local support groups. We're here to help you prioritize your mental well-being. <br>
+                            <strong>Resource Links:</strong> <a href="https://blog.opencounseling.com/hotlines-ke/">Counseling Services Directory</a>, <a href="https://www.enableme.ke/en/article/suicide-emergency-numbers-and-free-counselling-centers-in-kenya-3770">Mental Health Hotlines</a>, <a href="https://basicneedskenya.org/">Support Group Schedule</a>
+						</li>
+						<li>
+
+						</li>
+						<li>
+
+						</li>
+					</ol>
+				</div>
+			</section>
+			<section id="join">
+				<div class="container">
+					<h2>Join us on Whatsapp!</h2>
+					<p>Thinking of becoming a memeber? Be sure to have a look through our <a href="#welfare">Welfare</a> first!</p>
+                    
+				</div>
+			</section>
+		</main>
+
+		<!-- Footer -->
+		<footer class="flex">
+            <p>&copy;Ujamaa 2024</p>
+		<!-- Scripts -->
+		<script src="script.js"></script>
+		<!-- END OF CONTENT -->
+	</body>
 </html>
