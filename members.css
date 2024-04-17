@@ -187,7 +187,7 @@ main h2{
     }
 }
 
-footer {
+.footer {
     position: fixed;
     justify-content: space-between;
     position: relative;
@@ -213,3 +213,26 @@ footer {
     height: 7vh;
 }
 
+#cardName {
+    width: 100%;
+}
+
+#cardNumber{
+    width: 100%;
+}
+
+#expDate {
+    width: 100%;
+}
+
+#cvv {
+    width: 100%;
+}
+
+.paypal {
+    width: 100%;
+}
+.inputs{
+    width: 100%;
+    height: 7vh;
+}
