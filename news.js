@@ -1,5 +1,5 @@
 const apiKey = '215797270cfa4a2cbe0fca2e533f6704';
-const apiUrl = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}&pageSize=5`;
+const apiUrl = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}&pageSize=20`;
 
 async function fetchNews() {
     try {
