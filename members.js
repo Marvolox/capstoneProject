@@ -26,3 +26,7 @@ function submitCardPayment() {
         document.getElementById('card-success').style.display = 'block';
     }
 }
+
+function home () {
+    window.location.href = 'index.html';
+}
