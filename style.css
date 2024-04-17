@@ -83,7 +83,6 @@ body {
    font-weight: normal;
  }
  
- /* Layouts */
  .flex {
    align-items: center;
    display: flex;
@@ -187,7 +186,7 @@ body {
    justify-content: center !important;
    text-align: center;
    width: 100%;
-   background-image: url(bg3.jpeg);
+   background-image: url(./images/bg3.jpeg);
  }
  
  header>* {
@@ -217,4 +216,15 @@ body {
   justify-content: center !important;
   text-align: center;
   width: 100%;
+ }
+
+ .join {
+   background-color: var(--night-black);
+   border-radius: .5rem;
+   padding: .75rem;
+   color: var(--seasalt-white);
+   font-size: 25px;
+   line-height: 1;
+   text-decoration: none;
+   transition-property: all;
  }
